@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" version="3">
+  <includeClasses>
+    <classEntry path="org.pixelami.hercularity.Action"/>
+    <classEntry path="org.pixelami.hercularity.AsyncAction"/>
+    <classEntry path="org.pixelami.hercularity.Step"/>
+    <classEntry path="org.pixelami.hercularity.Condition"/>
+    <classEntry path="org.pixelami.arsebackwards.events.StepErrorEvent"/>
+    <classEntry path="org.pixelami.hercularity.DeferredAction"/>
+    <classEntry path="org.pixelami.utils.ClassUtils"/>
+    <classEntry path="org.pixelami.arsebackwards.processes.Runner"/>
+    <classEntry path="org.pixelami.arsebackwards.processes.ProcessDescriptor"/>
+    <classEntry path="org.pixelami.arsebackwards.processes.AbstractProcess"/>
+    <classEntry path="org.pixelami.arsebackwards.processes.ProcessStatus"/>
+    <classEntry path="org.pixelami.arsebackwards.processes.IProcess"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>
