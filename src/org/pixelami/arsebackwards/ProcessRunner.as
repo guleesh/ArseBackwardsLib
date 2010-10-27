@@ -2,7 +2,7 @@
  * Created by Alexander "Foo 'The Man' Choo" Syed (a.k.a. Captain Fantastic) 
  */
 
-package org.pixelami.arsebackwards.processes
+package org.pixelami.arsebackwards
 {
 	import flash.display.DisplayObject;
 	import flash.display.FrameLabel;
@@ -10,9 +10,11 @@ package org.pixelami.arsebackwards.processes
 	import flash.events.EventDispatcher;
 	import flash.sampler.getSize;
 	import flash.utils.getTimer;
+	import org.pixelami.arsebackwards.processes.ProcessDescriptor;
+	import org.pixelami.arsebackwards.processes.ProcessStatus;
 	
 	
-	public class Runner extends EventDispatcher
+	public class ProcessRunner extends EventDispatcher
 	{
 		private static var _target:DisplayObject;
 		
@@ -104,7 +106,7 @@ package org.pixelami.arsebackwards.processes
 			return processes.length == 0 ;
 		}
 		
-		public function Runner()
+		public function ProcessRunner()
 		{
 			super(null);
 			_startTime = getTimer();

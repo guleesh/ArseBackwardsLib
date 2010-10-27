@@ -5,7 +5,7 @@
     <classEntry path="org.pixelami.arsebackwards.events.StepErrorEvent"/>
     <classEntry path="org.pixelami.hercularity.DeferredAction"/>
     <classEntry path="org.pixelami.utils.ClassUtils"/>
-    <classEntry path="org.pixelami.arsebackwards.processes.Runner"/>
+    <classEntry path="org.pixelami.arsebackwards.ProcessRunner"/>
     <classEntry path="org.pixelami.arsebackwards.processes.ProcessDescriptor"/>
     <classEntry path="org.pixelami.arsebackwards.processes.AbstractProcess"/>
     <classEntry path="org.pixelami.arsebackwards.processes.ProcessStatus"/>
